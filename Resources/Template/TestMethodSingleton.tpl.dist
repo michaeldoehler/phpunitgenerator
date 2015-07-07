@@ -1,0 +1,14 @@
+
+    /**
+     * Generated from @assert {annotation}.
+     *
+     * @Generated
+     * @covers {className}::{origMethodName}
+     */
+    public function test{methodName}()
+    {
+        $this->assertInstanceOf(
+            '{className}',
+            {className}::{origMethodName}()
+        );
+    }

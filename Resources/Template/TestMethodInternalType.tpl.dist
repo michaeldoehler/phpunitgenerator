@@ -1,0 +1,11 @@
+
+    /**
+     * Generated from Setter Generator.
+     *
+     * @Generated
+     * @covers {className}::{origMethodName}
+     */
+    public function test{methodName}()
+    {
+		$this->assertInternalType('{type}', $this->object->{origMethodName}({arguments}));
+    }

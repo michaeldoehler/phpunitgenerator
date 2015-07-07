@@ -1,0 +1,25 @@
+{
+  "name": "michaeldoehler/phpunit-generator",
+  "description": "Php Unit Generator",
+  "version": "0.9.2",
+  "authors": [
+    {
+      "name": "Michael Döhler",
+      "email": "michaeldoehler@me.com",
+      "role": "lead"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhpUnitTestGenerator\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5.14",
+    "fzaninotto/faker": "~1.4",
+    "symfony/console": "~2.4",
+    "phpunit/php-text-template": "~1.2",
+    "phpunit/phpunit": "~4.6",
+    "phpdocumentor/reflection-docblock": "~2.0"
+  }
+}

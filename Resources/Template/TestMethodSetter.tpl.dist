@@ -1,0 +1,12 @@
+
+    /**
+     * Generated from Setter Generator.
+     *
+     * @Generated
+     * @covers {className}::{origMethodName}
+     */
+    public function test{methodName}()
+    {
+		$this->object->set{methodShort}({dummyValue});
+		$this->assert{assertion}({excepted}, $this->object->get{methodShort}());
+    }
